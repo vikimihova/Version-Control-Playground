@@ -45,7 +45,7 @@ namespace BookPlatform.Data.Models
 		public string ImageUrl { get; set; } = NoImageUrl;
 
 		[Required]
-		[Comment("Average rating based on users' ratings")]
+		[Comment("Average rating based on all individual ratings")]
 		public double AverageRating { get; set; } = 0.00;
 
 		[Required]
