@@ -37,7 +37,7 @@ namespace BookPlatform.Data.Models
 		public Genre Genre { get; set; } = null!;
 		
 		[Comment("Book description")]
-		public string Description { get; set; } = null!;
+		public string BookDescription { get; set; } = null!;
 
 		[Required]
 		[MaxLength(MaxImageUrlLength)]
