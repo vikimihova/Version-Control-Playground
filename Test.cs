@@ -35,8 +35,7 @@ namespace BookPlatform.Data.Models
 		[Required]
 		[ForeignKey(nameof(GenreId))]
 		public Genre Genre { get; set; } = null!;
-
-		[Required]
+		
 		[Comment("Book description")]
 		public string Description { get; set; } = null!;
 
